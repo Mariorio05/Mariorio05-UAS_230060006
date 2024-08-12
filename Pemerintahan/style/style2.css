@@ -1,0 +1,91 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header h1 {
+  color: white;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Header styling */
+header {
+  background-color: #333;
+  padding: 20px 0;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
+
+/* Navigation bar styling */
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #444;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* Main container styling */
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+/* Main content area styling */
+.main-content {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.policy-section {
+  margin-bottom: 20px;
+}
+
+.policy-section h2 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.policy-section p {
+  margin: 10px 0;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  font-size: 14px;
+}
